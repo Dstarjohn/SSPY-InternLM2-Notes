@@ -156,18 +156,19 @@ tips：
 
 LayerNorm（层归一化）和RMSNorm（均方根层归一化）的公式及相关解释说明。LayerNorm 的关键思想是对单个样本中的所有激活值进行归一化，不是在整个批次中进行归一化,有助于减少不同层输出分布的变化，从而有助于稳定训练.
 
-**LayerNorm公式**如下:  
-<img src="http://latex.codecogs.com/gif.latex?\text{LN}(x)%20=%20\frac{x%20-%20\mu}{\sigma}%20\cdot%20\gamma%20+%20\beta" />
+<p align="center">
+  <strong>LayerNorm公式</strong>如下:<br>
+  <img src="http://latex.codecogs.com/gif.latex?\text{LN}(x)%20=%20\frac{x%20-%20\mu}{\sigma}%20\cdot%20\gamma%20+%20\beta" />
+</p>
 
-$$
-x 是网络层的输入。  
-μ 是输入特征的均值。  
-σ 是输入特征的标准差。  
-γ 和 β 是可学习的参数，分别用于缩放和平移归一化后的数据。
-$$
+$x$ 是网络层的输入。  
+$\mu$ 是输入特征的均值。  
+$\sigma$ 是输入特征的标准差。  
+$\gamma$ 和 $\beta$ 是可学习的参数，分别用于缩放和平移归一化后的数据。
+
 
 **RMSNorm公式**如下：
-<img src="http://latex.codecogs.com/gif.latex?\text{RMSNorm}(x)%20=%20\frac{x}{\sqrt{\frac{1}{N}\sum_{i=1}^{N}x_i^2}}%20  
+<img src="http://latex.codecogs.com/gif.latex?\text{RMSNorm}(x)%20=%20\frac{x}{\sqrt{\frac{1}{N}\sum_{i=1}^{N}x_i^2}}%20\cdot%20\gamma" />
 
 $$
 x 是网络层的输入。  
