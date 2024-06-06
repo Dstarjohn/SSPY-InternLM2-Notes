@@ -157,9 +157,7 @@ tips：
 LayerNorm（层归一化）和RMSNorm（均方根层归一化）的公式及相关解释说明。LayerNorm 的关键思想是对单个样本中的所有激活值进行归一化，不是在整个批次中进行归一化,有助于减少不同层输出分布的变化，从而有助于稳定训练.
 
 **LayerNorm公式**如下:
-$$
-\text{LN}(x) = \frac{x - \mu}{\sigma} \cdot \gamma + \beta
-$$
+<img src="http://latex.codecogs.com/gif.latex?\text{LN}(x)%20=%20\frac{x%20-%20\mu}{\sigma}%20\cdot%20\gamma%20+%20\beta" />
 $$
 x 是网络层的输入。
 μ 是输入特征的均值。
