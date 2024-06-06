@@ -172,6 +172,7 @@ $$
 \text{RMSNorm}(x) = \frac{x}{\sqrt{\frac{1}{N}\sum_{i=1}^{N}x_i^2}} \cdot \gamma
 $$
 
+
 $$
 x 是网络层的输入。
 N 是输入特征的数量。
@@ -188,9 +189,6 @@ $$
 ![](./image/3.1.png)
 
 预训练设置，主要是分词和超参数，InternLM2采用了和GPT-4的tokenization方法，InternLM2预训练超参数如下：
-
-
-
 $$
 Params(参数量):&\ 1.8B,7B,20B \\
 n_{layers}(层数):&\ 24,32,48 \\
