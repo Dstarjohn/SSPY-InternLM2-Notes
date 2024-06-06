@@ -4,7 +4,10 @@
 官网地址：[书生·浦语官网](https://internlm.intern-ai.org.cn/)  
 课程录播视频链接地址：[书生·浦语大模型全链路开源开放体系_bilibili](https://www.bilibili.com/video/BV1Vx421X72D/)   2024.06.05  
 训练营链接：[书生·浦语大模型实战营第二期初夏专场](https://github.com/InternLM/Tutorial/tree/camp2)  
-InternLM大模型地址：[InternLM 大模型](https://github.com/InternLM/InternLM/)
+InternLM大模型地址：[InternLM 大模型](https://github.com/InternLM/InternLM/)  
+
+排版更好一些的地址：  
+CSDN个人博客地址：[InternLM2大模型](https://blog.csdn.net/weixin_44217506/article/details/139500103?spm=1001.2014.3001.5502)
 
 ### 一、视频笔记  
 由上海人工智能实验室青年科学家**陈恺**带来《**书生·浦语大模型全链路开源体系**》课程的分享，课程视频地址见上方链接。
