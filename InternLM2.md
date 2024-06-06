@@ -1,9 +1,9 @@
 # InternLM2实战营第二期-笔记
 
 ## 第一节课 《书生·浦语大模型全链路开源体系》
-官网地址：[书生·浦语官网](https://internlm.intern-ai.org.cn/)
-课程录播视频链接地址：[书生·浦语大模型全链路开源开放体系_bilibili](https://www.bilibili.com/video/BV1Vx421X72D/)   2024.06.05
-训练营链接：[书生·浦语大模型实战营第二期初夏专场](https://github.com/InternLM/Tutorial/tree/camp2)
+官网地址：[书生·浦语官网](https://internlm.intern-ai.org.cn/) \\
+课程录播视频链接地址：[书生·浦语大模型全链路开源开放体系_bilibili](https://www.bilibili.com/video/BV1Vx421X72D/)   2024.06.05 \\
+训练营链接：[书生·浦语大模型实战营第二期初夏专场](https://github.com/InternLM/Tutorial/tree/camp2) \\
 InternLM大模型地址：[InternLM 大模型](https://github.com/InternLM/InternLM/)
 
 ### 一、视频笔记  
