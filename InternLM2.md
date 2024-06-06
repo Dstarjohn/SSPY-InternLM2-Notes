@@ -156,25 +156,23 @@ tips：
 
 LayerNorm（层归一化）和RMSNorm（均方根层归一化）的公式及相关解释说明。LayerNorm 的关键思想是对单个样本中的所有激活值进行归一化，不是在整个批次中进行归一化,有助于减少不同层输出分布的变化，从而有助于稳定训练.
 
-**LayerNorm公式**如下:
+**LayerNorm公式**如下:  
 <img src="http://latex.codecogs.com/gif.latex?\text{LN}(x)%20=%20\frac{x%20-%20\mu}{\sigma}%20\cdot%20\gamma%20+%20\beta" />
+
 $$
-x 是网络层的输入。
-μ 是输入特征的均值。
-σ 是输入特征的标准差。
+x 是网络层的输入。  
+μ 是输入特征的均值。  
+σ 是输入特征的标准差。  
 γ 和 β 是可学习的参数，分别用于缩放和平移归一化后的数据。
 $$
 
 **RMSNorm公式**如下：
-$$
-\text{RMSNorm}(x) = \frac{x}{\sqrt{\frac{1}{N}\sum_{i=1}^{N}x_i^2}} \cdot \gamma
-$$
-
+<img src="http://latex.codecogs.com/gif.latex?\text{RMSNorm}(x)%20=%20\frac{x}{\sqrt{\frac{1}{N}\sum_{i=1}^{N}x_i^2}}%20  
 
 $$
-x 是网络层的输入。
-N 是输入特征的数量。
-x_i 是输入特征向量中的第 𝑖个元素。
+x 是网络层的输入。  
+N 是输入特征的数量。  
+x_i 是输入特征向量中的第 𝑖个元素。  
 𝛾是一个可学习的缩放参数。
 $$
 
